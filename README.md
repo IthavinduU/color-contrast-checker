@@ -1,6 +1,6 @@
 #  custom-color-contrast-checker
 
-Check the contrast ratio between two colors and verify WCAG accessibility compliance.
+custom-color-contrast-checker is a Node.js package designed to check the contrast ratio between two colors and verify their compliance with WCAG accessibility standards. The tool supports hex color codes, rgb() and rgba() formats, and offers both a JavaScript API and a command-line interface (CLI) for quick and easy checks.
 
 Supports:
 -  Hex colors (`#ffffff`, `#000`)
