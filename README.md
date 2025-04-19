@@ -1,12 +1,12 @@
-# 🎨 color-contrast-checker
+#  custom-color-contrast-checker
 
 Check the contrast ratio between two colors and verify WCAG accessibility compliance.
 
 Supports:
-- ✅ Hex colors (`#ffffff`, `#000`)
-- ✅ `rgb()` and `rgba()` formats
-- ✅ Command Line Interface (CLI)
-- ✅ WCAG AA & AAA compliance check
+-  Hex colors (`#ffffff`, `#000`)
+-  `rgb()` and `rgba()` formats
+-  Command Line Interface (CLI)
+-  WCAG AA & AAA compliance check
 
 ---
 
@@ -26,7 +26,7 @@ npx color-contrast-checker "#ffffff" "rgba(0,0,0,1)"
 
 ## 🧑‍💻 Usage
 
-### 🔸 In JavaScript
+###  In JavaScript
 
 ```js
 const checkContrast = require('color-contrast-checker');
@@ -53,7 +53,7 @@ console.log(result);
 
 ---
 
-### 🔸 CLI Usage
+###  CLI Usage
 
 ```bash
 npx color-contrast-checker "#ffffff" "rgba(0, 0, 0, 1)"
@@ -61,11 +61,11 @@ npx color-contrast-checker "#ffffff" "rgba(0, 0, 0, 1)"
 
 **Output:**
 ```
-🟢 Contrast Ratio: 21
-✅ WCAG AA - Normal Text: true
-✅ WCAG AA - Large Text: true
-✅ WCAG AAA - Normal Text: true
-✅ WCAG AAA - Large Text: true
+ Contrast Ratio: 21
+ WCAG AA - Normal Text: true
+ WCAG AA - Large Text: true
+ WCAG AAA - Normal Text: true
+ WCAG AAA - Large Text: true
 ```
 
 You can use:
@@ -77,7 +77,7 @@ You can use:
 
 ---
 
-## 👀 Visual Demo
+##  Visual Demo
 
 You can preview contrast visually using the included [index.html](./index.html):
 
@@ -105,6 +105,6 @@ color-contrast-checker/
 
 ---
 
-## 📜 License
+##  License
 
 MIT © Thavindu Liyanage
