@@ -1,6 +1,6 @@
 {
   "name": "custom-color-contrast-checker",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Check color contrast ratios and WCAG compliance for hex, rgb, and rgba colors.",
   "main": "index.js",
   "bin": {
